@@ -1,10 +1,15 @@
-language : node_js
+language: node_js
 node_js:
   - stable
+cache:
+  directories:
+    - node_modules
 addons:
   sonarcloud:
-    organization: "madhusj-github" # the key of the org you chose at step #3
+    organization: "madhusj-github"
     token:
-      secure: 38647714262d9d9325aab1bc3e054cc51b478035
+      secure: "38647714262d9d9325aab1bc3e054cc51b478035"
 script:
   - sonar-scanner
+  - npm run build
+  - npm test
