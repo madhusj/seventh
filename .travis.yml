@@ -6,6 +6,7 @@ group:
 dist: 
   - trusty
 addons:
+  sonarqube: true
   sonarcloud:
     organization: "madhusj-github"
     token:
