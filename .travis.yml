@@ -2,7 +2,6 @@ language : node_js
 node_js:
   - stable
 addons:
-  sonarqube: true
   sonarcloud:
     organization: "madhusj-github" # the key of the org you chose at step #3
     token:
