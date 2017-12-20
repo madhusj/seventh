@@ -17,4 +17,4 @@ env:
   SONAR_TOKEN: ff5994470b8c24ab25c0f650eec26ac2c4a6475f 
 script:
   # other script steps might be done before running the actual SonarQube analysis
-  - sonar-scanner -Dsonar.login=ff5994470b8c24ab25c0f650eec26ac2c4a6475f
+  - sonar - scanner
