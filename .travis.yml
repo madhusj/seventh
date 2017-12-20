@@ -11,4 +11,4 @@ addons:
     token:
       secure: c5868c57c39494abd5ef14205e4e2d6a30f1fddc
 script:
-  - sonar-scanner Dsonar.login=c5868c57c39494abd5ef14205e4e2d6a30f1fddc
+  - sonar-scanner Dsonar.login= "madhusj-github"
