@@ -1,6 +1,9 @@
 language : node_js
 node_js:
   - stable
+group : stable
+dist  : trusty
+
 addons:
   sonarcloud:
     organization: "madhusj-github" # the key of the org you chose at step #3
