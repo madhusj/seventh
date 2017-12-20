@@ -1,14 +1,11 @@
 language: node_js
 node_js:
   - stable
-cache:
-  directories:
-    - node_modules
 addons:
   sonarcloud:
     organization: "madhusj-github"
     token:
-      secure: "38647714262d9d9325aab1bc3e054cc51b478035"
+      secure: "3bc17c99fc1b91b6e97c981cc0e73afce83c14a3"
 script:
   - sonar-scanner
   - npm run build
