@@ -1,15 +1,14 @@
 language: node_js
 node_js:
   - stable
-addons:
-  sonarcloud:
-    organization: "madhusj-github"
-    token:
-      secure: "c5868c57c39494abd5ef14205e4e2d6a30f1fddc"
-script:
-  - sonar-scanner 
 group: 
   - stable
 dist: 
   - trusty
-
+addons:
+  sonarcloud:
+    organization: "madhusj-github"
+    token:
+      secure: c5868c57c39494abd5ef14205e4e2d6a30f1fddc
+script:
+  - sonar-scanner Dsonar.login=c5868c57c39494abd5ef14205e4e2d6a30f1fddc
