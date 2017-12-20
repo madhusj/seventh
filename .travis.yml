@@ -5,6 +5,11 @@ addons:
   sonarcloud:
     organization: "madhusj-github"
     token:
-      secure: "3bc17c99fc1b91b6e97c981cc0e73afce83c14a3"
+      secure: "c5868c57c39494abd5ef14205e4e2d6a30f1fddc"
 script:
-  - sonar-scanner -Dsonar.login=3bc17c99fc1b91b6e97c981cc0e73afce83c14a3
+  - sonar-scanner 
+group: 
+  - stable
+dist: 
+  - trusty
+
