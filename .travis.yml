@@ -1,13 +1,11 @@
 language : node_js
 node_js:
   - stable
-group : stable
-dist  : trusty
-
 addons:
   sonarqube: true
   sonarcloud:
     organization: "madhusj-github" # the key of the org you chose at step #3
     token:
       secure: ff5994470b8c24ab25c0f650eec26ac2c4a6475f
-script : sonar-scanner
+script: 
+  - sonar-scanner
