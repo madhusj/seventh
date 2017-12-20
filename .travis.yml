@@ -8,7 +8,7 @@ addons:
   sonarcloud:
     organization: "madhusj-github" # the key of the org you chose at step #3
     token:
-      secure: 5a42baa5d581b86c92bd44d5f416b8b402eb0b26 
+      secure: ff5994470b8c24ab25c0f650eec26ac2c4a6475f
 script:
   # other script steps might be done before running the actual analysis
   - sonar-scanner
