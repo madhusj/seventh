@@ -6,6 +6,5 @@ addons:
     organization: "madhusj-github" # the key of the org you chose at step #3
     token:
       secure: 38647714262d9d9325aab1bc3e054cc51b478035
-
 script:
   - sonar-scanner
