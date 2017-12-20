@@ -5,7 +5,7 @@ addons:
   sonarcloud:
     organization: "madhusj-github" # the key of the org you chose at step #3
     token:
-      secure: "ff5994470b8c24ab25c0f650eec26ac2c4a6475f"
+      secure: "38647714262d9d9325aab1bc3e054cc51b478035"
 script:
   - sonar-scanner
   - npm run build
